@@ -9,6 +9,7 @@ import Stories from '@/components/pages/Stories'
 import GamePlay from '@/components/pages/GamePlay'
 import StoryReader from '@/components/pages/StoryReader'
 import ProfileSelector from '@/components/pages/ProfileSelector'
+import ParentDashboard from '@/components/pages/ParentDashboard'
 import { ProfileProvider } from '@/hooks/useProfile'
 
 function App() {
@@ -17,13 +18,14 @@ function App() {
       <div className="min-h-screen bg-background font-body">
         <Header />
         <main>
-          <Routes>
+<Routes>
             <Route path="/" element={<Home />} />
             <Route path="/profile" element={<ProfileSelector />} />
             <Route path="/math-world" element={<MathWorld />} />
             <Route path="/reading-land" element={<ReadingLand />} />
             <Route path="/my-progress" element={<MyProgress />} />
             <Route path="/stories" element={<Stories />} />
+            <Route path="/parent-dashboard" element={<ParentDashboard />} />
             <Route path="/game/:gameId" element={<GamePlay />} />
             <Route path="/story/:storyId" element={<StoryReader />} />
           </Routes>

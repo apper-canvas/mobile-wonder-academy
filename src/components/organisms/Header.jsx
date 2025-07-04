@@ -15,14 +15,14 @@ const Header = () => {
     return null
   }
   
-  const navItems = [
+const navItems = [
     { path: '/', label: 'Home', icon: 'Home' },
     { path: '/math-world', label: 'Math World', icon: 'Calculator' },
     { path: '/reading-land', label: 'Reading Land', icon: 'BookOpen' },
     { path: '/stories', label: 'Stories', icon: 'Book' },
     { path: '/my-progress', label: 'My Progress', icon: 'TrendingUp' },
+    { path: '/parent-dashboard', label: 'Parent Dashboard', icon: 'BarChart3' },
   ]
-  
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen)
   }
