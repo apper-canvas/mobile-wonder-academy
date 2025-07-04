@@ -1,0 +1,16 @@
+[
+  {
+    "Id": 1,
+    "profileId": 1,
+    "totalStars": 15,
+    "totalCoins": 150,
+    "unlockedBadges": ["first-star", "reading-rookie"]
+  },
+  {
+    "Id": 2,
+    "profileId": 2,
+    "totalStars": 22,
+    "totalCoins": 220,
+    "unlockedBadges": ["first-star", "reading-rookie", "game-master"]
+  }
+]

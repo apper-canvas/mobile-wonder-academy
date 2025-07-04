@@ -1,0 +1,34 @@
+[
+  {
+    "Id": 1,
+    "profileId": 1,
+    "storyId": "brave-little-rabbit",
+    "currentPage": 5,
+    "completed": true,
+    "createdAt": "2024-01-15T13:00:00.000Z"
+  },
+  {
+    "Id": 2,
+    "profileId": 1,
+    "storyId": "magic-garden",
+    "currentPage": 3,
+    "completed": false,
+    "createdAt": "2024-01-15T14:00:00.000Z"
+  },
+  {
+    "Id": 3,
+    "profileId": 2,
+    "storyId": "brave-little-rabbit",
+    "currentPage": 5,
+    "completed": true,
+    "createdAt": "2024-01-20T17:00:00.000Z"
+  },
+  {
+    "Id": 4,
+    "profileId": 2,
+    "storyId": "ocean-adventure",
+    "currentPage": 2,
+    "completed": false,
+    "createdAt": "2024-01-20T18:00:00.000Z"
+  }
+]

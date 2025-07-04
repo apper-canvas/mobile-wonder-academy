@@ -1,0 +1,92 @@
+[
+  {
+    "Id": "counting",
+    "title": "Counting Fun",
+    "description": "Learn to count from 1 to 10 with fun objects!",
+    "type": "math",
+    "icon": "Hash",
+    "bgColor": "bg-gradient-to-br from-blue-400 to-blue-600",
+    "instructions": "Count the objects and choose the correct number!"
+  },
+  {
+    "Id": "addition",
+    "title": "Addition Adventure",
+    "description": "Add numbers together to solve puzzles!",
+    "type": "math",
+    "icon": "Plus",
+    "bgColor": "bg-gradient-to-br from-green-400 to-green-600",
+    "instructions": "Look at the math problem and find the right answer!"
+  },
+  {
+    "Id": "subtraction",
+    "title": "Subtraction Safari",
+    "description": "Take away numbers to find the answer!",
+    "type": "math",
+    "icon": "Minus",
+    "bgColor": "bg-gradient-to-br from-orange-400 to-orange-600",
+    "instructions": "Subtract the numbers and choose the correct answer!"
+  },
+  {
+    "Id": "shapes",
+    "title": "Shape Detective",
+    "description": "Identify different shapes around you!",
+    "type": "math",
+    "icon": "Square",
+    "bgColor": "bg-gradient-to-br from-purple-400 to-purple-600",
+    "instructions": "Look at the shape and pick the right name!"
+  },
+  {
+    "Id": "patterns",
+    "title": "Pattern Play",
+    "description": "Complete patterns with colors and shapes!",
+    "type": "math",
+    "icon": "Grid3x3",
+    "bgColor": "bg-gradient-to-br from-pink-400 to-pink-600",
+    "instructions": "Look at the pattern and choose what comes next!"
+  },
+  {
+    "Id": "letters",
+    "title": "Letter Land",
+    "description": "Learn the alphabet with fun activities!",
+    "type": "reading",
+    "icon": "Type",
+    "bgColor": "bg-gradient-to-br from-red-400 to-red-600",
+    "instructions": "Look at the letter and choose the correct name!"
+  },
+  {
+    "Id": "phonics",
+    "title": "Sound Safari",
+    "description": "Learn letter sounds and how they work!",
+    "type": "reading",
+    "icon": "Volume2",
+    "bgColor": "bg-gradient-to-br from-yellow-400 to-yellow-600",
+    "instructions": "Listen to the sound and pick the right letter!"
+  },
+  {
+    "Id": "sight-words",
+    "title": "Word Warriors",
+    "description": "Practice reading common sight words!",
+    "type": "reading",
+    "icon": "Eye",
+    "bgColor": "bg-gradient-to-br from-teal-400 to-teal-600",
+    "instructions": "Read the word and choose the right one!"
+  },
+  {
+    "Id": "rhyming",
+    "title": "Rhyme Time",
+    "description": "Find words that rhyme and sound alike!",
+    "type": "reading",
+    "icon": "Music",
+    "bgColor": "bg-gradient-to-br from-indigo-400 to-indigo-600",
+    "instructions": "Find the word that rhymes with the given word!"
+  },
+  {
+    "Id": "vocabulary",
+    "title": "Word Explorer",
+    "description": "Learn new words and their meanings!",
+    "type": "reading",
+    "icon": "BookOpen",
+    "bgColor": "bg-gradient-to-br from-cyan-400 to-cyan-600",
+    "instructions": "Read the word and choose what it means!"
+  }
+]

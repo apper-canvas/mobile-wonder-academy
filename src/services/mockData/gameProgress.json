@@ -1,0 +1,56 @@
+[
+  {
+    "Id": 1,
+    "profileId": 1,
+    "gameId": "counting",
+    "starsEarned": 3,
+    "attemptsCount": 2,
+    "difficultyLevel": 1,
+    "completedAt": "2024-01-15T11:00:00.000Z"
+  },
+  {
+    "Id": 2,
+    "profileId": 1,
+    "gameId": "addition",
+    "starsEarned": 2,
+    "attemptsCount": 1,
+    "difficultyLevel": 1,
+    "completedAt": "2024-01-15T11:30:00.000Z"
+  },
+  {
+    "Id": 3,
+    "profileId": 1,
+    "gameId": "letters",
+    "starsEarned": 3,
+    "attemptsCount": 1,
+    "difficultyLevel": 1,
+    "completedAt": "2024-01-15T12:00:00.000Z"
+  },
+  {
+    "Id": 4,
+    "profileId": 2,
+    "gameId": "counting",
+    "starsEarned": 3,
+    "attemptsCount": 1,
+    "difficultyLevel": 2,
+    "completedAt": "2024-01-20T15:00:00.000Z"
+  },
+  {
+    "Id": 5,
+    "profileId": 2,
+    "gameId": "addition",
+    "starsEarned": 3,
+    "attemptsCount": 1,
+    "difficultyLevel": 2,
+    "completedAt": "2024-01-20T15:30:00.000Z"
+  },
+  {
+    "Id": 6,
+    "profileId": 2,
+    "gameId": "subtraction",
+    "starsEarned": 2,
+    "attemptsCount": 2,
+    "difficultyLevel": 1,
+    "completedAt": "2024-01-20T16:00:00.000Z"
+  }
+]
