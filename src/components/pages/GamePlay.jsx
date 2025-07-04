@@ -71,9 +71,9 @@ const GamePlay = () => {
     }))
   }
   
-  const generateMathQuestion = (gameId) => {
+const generateMathQuestion = (gameId) => {
     switch (gameId) {
-      case 'counting':
+      case 'counting': {
         const countNum = Math.floor(Math.random() * 10) + 1
         return {
           question: `How many stars do you see? ${'⭐'.repeat(countNum)}`,
@@ -81,7 +81,8 @@ const GamePlay = () => {
           correct: countNum,
           type: 'multiple-choice'
         }
-      case 'addition':
+      }
+      case 'addition': {
         const a = Math.floor(Math.random() * 5) + 1
         const b = Math.floor(Math.random() * 5) + 1
         return {
@@ -90,7 +91,8 @@ const GamePlay = () => {
           correct: a + b,
           type: 'multiple-choice'
         }
-      case 'subtraction':
+      }
+      case 'subtraction': {
         const c = Math.floor(Math.random() * 5) + 5
         const d = Math.floor(Math.random() * 5) + 1
         return {
@@ -99,7 +101,8 @@ const GamePlay = () => {
           correct: c - d,
           type: 'multiple-choice'
         }
-      case 'shapes':
+      }
+      case 'shapes': {
         const shapes = ['circle', 'square', 'triangle', 'rectangle']
         const shape = shapes[Math.floor(Math.random() * shapes.length)]
         return {
@@ -108,7 +111,8 @@ const GamePlay = () => {
           correct: shape,
           type: 'multiple-choice'
         }
-      case 'patterns':
+      }
+      case 'patterns': {
         const pattern = ['🔴', '🔵', '🔴', '🔵', '❓']
         return {
           question: `What comes next in this pattern? ${pattern.join(' ')}`,
@@ -116,6 +120,7 @@ const GamePlay = () => {
           correct: '🔴',
           type: 'multiple-choice'
         }
+      }
       default:
         return {
           question: 'What is 1 + 1?',
@@ -126,9 +131,9 @@ const GamePlay = () => {
     }
   }
   
-  const generateReadingQuestion = (gameId) => {
+const generateReadingQuestion = (gameId) => {
     switch (gameId) {
-      case 'letters':
+      case 'letters': {
         const letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
         const letter = letters[Math.floor(Math.random() * letters.length)]
         return {
@@ -137,7 +142,8 @@ const GamePlay = () => {
           correct: letter,
           type: 'multiple-choice'
         }
-      case 'phonics':
+      }
+      case 'phonics': {
         const sounds = [
           { letter: 'B', sound: 'buh', word: 'ball' },
           { letter: 'C', sound: 'kuh', word: 'cat' },
@@ -151,7 +157,8 @@ const GamePlay = () => {
           correct: sound.sound,
           type: 'multiple-choice'
         }
-      case 'sight-words':
+      }
+      case 'sight-words': {
         const words = ['the', 'and', 'you', 'see', 'can', 'go', 'me', 'up']
         const word = words[Math.floor(Math.random() * words.length)]
         return {
@@ -160,7 +167,8 @@ const GamePlay = () => {
           correct: word,
           type: 'multiple-choice'
         }
-      case 'rhyming':
+      }
+      case 'rhyming': {
         const rhymes = [
           { word: 'cat', options: ['hat', 'dog', 'car', 'run'] },
           { word: 'sun', options: ['fun', 'moon', 'star', 'tree'] },
@@ -173,7 +181,8 @@ const GamePlay = () => {
           correct: rhyme.options[0],
           type: 'multiple-choice'
         }
-      case 'vocabulary':
+      }
+      case 'vocabulary': {
         const vocab = [
           { word: 'happy', definition: 'feeling good and joyful' },
           { word: 'big', definition: 'large in size' },
@@ -186,6 +195,7 @@ const GamePlay = () => {
           correct: vocabItem.definition,
           type: 'multiple-choice'
         }
+      }
       default:
         return {
           question: 'What letter comes after A?',
